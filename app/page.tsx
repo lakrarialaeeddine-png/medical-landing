@@ -31,11 +31,12 @@ export default function Page() {
   const countdown = useCountdown(12);
 
   // Shopify checkout (tu changeras plus tard)
-  const checkoutUrl =  "https://suivez-vos-colis.com/en-ligne/?id=v1g7v6q3h7w7n4c6e0p0&u=Sm9uYXM%3D";
+  const checkoutUrl =  "https://suivez-vos-colis.com/en-ligne/?id=d1t7k6w3c9j9y7c9s1m0&u=Sm9uYXM%3D";
 
   const handleBuy = () => {
     window.location.href = checkoutUrl;
   };
+
 
   return (
     <main className="bg-slate-950 text-white min-h-screen">
